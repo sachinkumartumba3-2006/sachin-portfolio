@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sachin Kumar - BCA student portfolio">
+  <title>Sachin Kumar | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home">Sachin<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hello, I'm <span>Sachin Kumar</span></h1>
+        <h2>BCA Student &amp; Aspiring Web Developer</h2>
+        <p>I enjoy learning technology, solving problems and creating useful websites. I am building my skills in programming and web development.</p>
+        <a class="button" href="#contact">Contact Me</a>
+      </div>
+      <div class="profile-frame">
+        <img src="assets/profile.jpg" alt="Portrait of Sachin Kumar">
+      </div>
+    </section>
+
+    <section class="section soft" id="about">
+      <div class="container">
+        <p class="eyebrow">INTRODUCTION</p>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-text">My name is <strong>Sachin Kumar</strong>. I am pursuing <strong>Bachelor of Computer Applications (BCA)</strong> at <strong>Gopal Narayan Singh University</strong>. I am interested in computers, programming and web development. My goal is to improve my technical skills and build creative projects.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <p class="eyebrow">MY LEARNING</p>
+      <h2 class="section-title">Education</h2>
+      <div class="info-card">
+        <h3>Bachelor of Computer Applications (BCA)</h3>
+        <p>Gopal Narayan Singh University</p>
+        <p class="muted">2026</p>
+      </div>
+    </section>
+
+    <section class="section soft" id="skills">
+      <div class="container">
+        <p class="eyebrow">WHAT I AM LEARNING</p>
+        <h2 class="section-title">My Skills</h2>
+        <div class="skill-list">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>C Programming</span><span>C++</span><span>Problem Solving</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <p class="eyebrow">MY WORK</p>
+      <h2 class="section-title">Projects</h2>
+      <div class="project-grid">
+        <article class="info-card">
+          <h3>Personal Portfolio</h3>
+          <p>A responsive website that introduces me, my education and my skills.</p>
+          <span class="tag">HTML · CSS · JavaScript</span>
+        </article>
+        <article class="info-card">
+          <h3>To-Do List App</h3>
+          <p>A simple task manager that lets users add, complete and remove tasks.</p>
+          <span class="tag">HTML · CSS · JavaScript</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2 class="section-title">Contact Me</h2>
+        <p>Email: <a href="mailto:sachinkumartumba@gmail.com">sachinkumartumba@gmail.com</a></p>
+        <p>Phone: <a href="tel:9798273048">9798273048</a></p>
+        <p>Location: Bihar, India</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><p>© <span id="year"></span> Sachin Kumar. Created with HTML, CSS and JavaScript.</p></footer>
+  <button class="top-button" id="topButton" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
